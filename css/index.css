@@ -4,11 +4,7 @@ h2 {
 	margin:20px auto;
 }
 body {
-	/* 图片自动填充代码 */
-	  -webkit-background-size: cover;
-	  -moz-background-size: cover;
-	  -o-background-size: cover;
-	  background-size: cover;
+	background-image: linear-gradient(to top left,#777,#353535);
 
 }
 .nav {
