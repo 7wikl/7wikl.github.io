@@ -19,6 +19,7 @@ body {
 	text-decoration: none;
 	color:#777;
 	font-size: 17px;
+	transition: all 0.2s;
 }
 
 .nav a:hover{
