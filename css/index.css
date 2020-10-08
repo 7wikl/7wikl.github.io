@@ -1,25 +1,27 @@
 iframe {
-	float: right;
+	position: absolute;
+	right:20px;
+	top:80px;
 	width: 300px;
 	height: 400px;
-	margin-top: 40px;
+	hidden:1;
 }
 
 h2 {
 	text-align:center;
-	font-size: 30px;
+	font-size: 35px;
 	margin:20px auto;
 }
 body {
-	background-image: linear-gradient(to top left,#777,#353535);
+	background-image: url(../image/6.jpg);
+	/* background-image: linear-gradient(to top left,#777,#353535); */
+	height: 900px;
 }
 .nav {
-		line-height:50px;
-		width:100px;
-		padding:8px;
-		margin-left: 20px;
-		margin-top: 12em;
-		float:left;
+	position: absolute;
+	line-height: 40px;
+	top: 280px;
+	left: 15px;
 }
 .nav a {
 	text-decoration: none;
@@ -27,30 +29,30 @@ body {
 	font-size: 17px;
 	transition: all 0.2s;
 }
-
+.nav li{
+	content: ".";
+	color: #00FFFF;
+}
 .nav a:hover{
 	color: #00FFFF;
 	font-size:20px
 }
-
-#section {
-	font-size: 17px;
-	margin-top: 50px;
-	margin-right: 500px;
-	margin-left: 500px;
-	line-height: 25px;
+#my {
 	text-align: center;
-	color: #bfa;
+	color: #7FFFD4;
+	margin-top: 240px;
+	font-size: 50px;
+	transition: margin-top 2s,font-size 2s;
 }
-
-#section>a{
+.nav2 {
+		text-align: center;
+		margin-top: -25px;
+}
+.nav2>a {
+	color: #00FFFF;
 	text-decoration: none;
-	color:#bfa;
 }
-
-#author:hover {
-	color:orange;
-	font-size: 20px;
+.nav2>a:hover {
+	font-size: 18px;
+	transition: font-size 0.5s;
 }
-
-/*   注释    */
