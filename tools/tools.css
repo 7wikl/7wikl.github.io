@@ -18,6 +18,7 @@ body{
 	align-content: flex-start;
 }
 .all img{
+	display: block;
 	width: 300px;
 	height: 160px;
 	opacity: 0.9;
