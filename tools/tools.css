@@ -14,7 +14,7 @@ body{
 	z-index: 99;
 	box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 20px;
 	margin-top: -8px;
-	
+	opacity: 0.77;
 }
 .all{
 	margin:60px auto 10px;
