@@ -15,7 +15,7 @@ h2 {
 body {
 	background-image: url(../image/6.jpg);
 	/* background-image: linear-gradient(to top left,#777,#353535); */
-	height: 900px;
+	height: 800px;
 }
 .nav {
 	position: absolute;
@@ -56,7 +56,12 @@ body {
 	font-size: 18px;
 	transition: font-size 0.5s;
 }
-
+.foot{
+	position: absolute;
+	width:99%;
+	text-align: center;
+	bottom: -62px;
+}
 @media (max-width:768px){
 	  body{
 	   background:url(../image/6.jpg)  no-repeat center center;
