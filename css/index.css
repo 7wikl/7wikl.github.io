@@ -8,7 +8,7 @@ iframe {
 
 h2 {
 	text-align:center;
-	font-size: 35px;
+	font-size: 40px;
 	margin:20px auto;
 	color: aqua;
 }
@@ -62,10 +62,23 @@ body {
 	text-align: center;
 	bottom: -62px;
 }
-@media (max-width:768px){
-	  body{
+@media (max-width:768px)
+{
+	body
+	  {
 	   background:url(../image/6.jpg)  no-repeat center center;
 	   background-size:cover;
 	   background-attachment:fixed;
+	}
+	iframe{
+		width: 0;
+		height: 0;
+	}
+	#my{
+		font-size: 30px;
+	}
+	.foot{
+		color: #00FFFF;
+		bottom: -127px;
 	}
 }
