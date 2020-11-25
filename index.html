@@ -1,53 +1,86 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="keywords" content="my blog,lc,wikl">
-		<meta name="description" content=" lc的博客网站">
-		
-		<link rel="icon" href="./image/wikl.ico" type="image/x-icon">		
-		<title>wikl's  blog</title>
-		<link rel="stylesheet" href="./css/index.css">
-		
-		<script src="./js/index.js" type="text/javascript" charset="utf-8" defer="defer"></script>
-	</head>
-	
-		<body>	
-		
-		<h2>LC's blog</h2>	
-		
-		<hr/>
-		
-		<ul class="nav">
-			<li>
-				<a href="index.html">主页</a>
-			</li>
-			<li>
-				<a href="aboutMe.html" target="_blank">关于</a>
-			</li>
-			<li>
-				<a href="contact.html" target="_blank">联系</a>
-			</li>
-			<li>
-				<a href="./tools/tools.html" target="_blank">作品及工具集</a>
-			</li>
-			<li>
-				<a href="./show_file/3d.html" target="_blank">演示文件</a>
-			</li>
-		</ul>
-		<p id="my">这里是lc的博客</p>
-		
-		<div class="nav2">
-		<a href="./tools/tools.html" target="_blank">
-			what do you want to do?
-		</a>
-		</div>
-		
-	<!-- 	<iframe 
-			src="./3d/3d.html" scrolling="No" 
-			frameborder="no">
-		</iframe> -->
-		
-		<div class="foot">毕竟几人真得鹿，不知终日梦为鱼</div>
-	</body>
-</html>
+/* iframe {
+	position: absolute;
+	right:20px;
+	top:80px;
+	width: 300px;
+	height: 400px;
+}
+ */
+h2 {
+	text-align:center;
+	font-size: 40px;
+	margin:20px auto;
+	color: aqua;
+}
+body {
+	background-image: url(../image/6.jpg);
+	/* background-image: linear-gradient(to top left,#777,#353535); */
+	height: 800px;
+}
+.nav {
+	position: absolute;
+	line-height: 40px;
+	top: 280px;
+	left: 15px;
+}
+.nav a {
+	text-decoration: none;
+	color:#777;
+	font-size: 17px;
+	transition: all 0.2s;
+}
+.nav li{
+	content: ".";
+	color: #00FFFF;
+}
+.nav a:hover{
+	color: #00FFFF;
+	font-size:20px
+}
+#my {
+	text-align: center;
+	color: #7FFFD4;
+	margin-top: 240px;
+	font-size: 50px;
+	transition: margin-top 2s,font-size 2s;
+}
+.nav2 {
+		text-align: center;
+		margin-top: -25px;
+}
+.nav2>a {
+	color: #00FFFF;
+	text-decoration: none;
+}
+.nav2>a:hover {
+	font-size: 18px;
+	transition: font-size 0.5s;
+}
+.foot{
+	opacity: 0.8;
+	color: #4effff;
+	position: absolute;
+	width:99%;
+	text-align: center;
+	bottom: -98px;
+}
+@media (max-width:768px)
+{
+	body
+	  {
+	   background:url(../image/6.jpg)  no-repeat center center;
+	   background-size:cover;
+	   background-attachment:fixed;
+	}
+/* 	iframe{
+		width: 0;
+		height: 0;
+	} */
+	#my{
+		font-size: 30px;
+	}
+	.foot{
+		color: #00FFFF;
+		bottom: -127px;
+	}
+}
