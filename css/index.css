@@ -1,11 +1,11 @@
-iframe {
+/* iframe {
 	position: absolute;
 	right:20px;
 	top:80px;
 	width: 300px;
 	height: 400px;
 }
-
+ */
 h2 {
 	text-align:center;
 	font-size: 40px;
@@ -57,10 +57,12 @@ body {
 	transition: font-size 0.5s;
 }
 .foot{
+	opacity: 0.8;
+	color: #4effff;
 	position: absolute;
 	width:99%;
 	text-align: center;
-	bottom: -62px;
+	bottom: -98px;
 }
 @media (max-width:768px)
 {
@@ -70,10 +72,10 @@ body {
 	   background-size:cover;
 	   background-attachment:fixed;
 	}
-	iframe{
+/* 	iframe{
 		width: 0;
 		height: 0;
-	}
+	} */
 	#my{
 		font-size: 30px;
 	}
